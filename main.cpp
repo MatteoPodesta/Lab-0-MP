@@ -12,13 +12,13 @@ int main()
         "Matteo Podesta" << endl;
 
     cout << "\nEnter the first number >";
-    cin >> num2;
-
-    cout << "\nEnter the second number  ";
     cin >> num1;
 
-    product = num1 + num2;
-    cout << "\nThe sum of " << num1 << " and " << product << " is " << num2 << endl;
+    cout << "\nEnter the second number  ";
+    cin >> num2;
+
+    sum = num1 + num2;
+    cout << "\nThe sum of " << num1 << " and " << num2 << " is " << sum << endl;
 
     return 0;
 }
